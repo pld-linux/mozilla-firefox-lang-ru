@@ -1,5 +1,5 @@
 
-%define         _lang		ru
+%define		_lang		ru
 
 Summary:	Russian resources for Mozilla-firefox
 Summary(pl):	Rosyjskie pliki jêzykowe dla Mozilli-firefox
