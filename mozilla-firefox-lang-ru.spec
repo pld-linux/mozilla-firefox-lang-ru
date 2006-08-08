@@ -4,12 +4,12 @@
 Summary:	Russian resources for Mozilla-firefox
 Summary(pl):	Rosyjskie pliki jêzykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	1.5.0.4
+Version:	1.5.0.6
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	7c53b89f0482e9daf3d0e0493c11bb1c
+# Source0-md5:	1c5585a21b994f1827f7ae69393178b6
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires(post,postun):	mozilla-firefox >= %{version}
