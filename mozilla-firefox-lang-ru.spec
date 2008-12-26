@@ -1,13 +1,13 @@
 %define		_lang		ru
-Summary:	Russian resources for Mozilla-firefox
-Summary(pl.UTF-8):	Rosyjskie pliki językowe dla Mozilli-firefox
+Summary:	Russian resources for Firefox
+Summary(pl.UTF-8):	Rosyjskie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	528a7b7967b09fa7df70d19f83d276c9
+# Source0-md5:	01b7791ae4a6b2292e960b390088567e
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Russian resources for Mozilla-firefox.
+Russian resources for Firefox.
 
 %description -l pl.UTF-8
-Rosyjskie pliki językowe dla Mozilli-firefox.
+Rosyjskie pliki językowe dla Firefoksa.
 
 %prep
 
